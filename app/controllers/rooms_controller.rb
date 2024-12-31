@@ -1,3 +1,11 @@
 class RoomsController < ApplicationController
-  @room = Room.new
+
+  def new
+    @room = Room.new
+  end
+
+  def create
+    binding.pry
+  end
+
 end
